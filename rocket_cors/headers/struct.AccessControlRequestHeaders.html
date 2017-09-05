@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `AccessControlRequestHeaders` struct in crate `rocket_cors`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, AccessControlRequestHeaders">
+
+    <title>rocket_cors::headers::AccessControlRequestHeaders - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc struct">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'>Struct AccessControlRequestHeaders</p><div class="block items"><ul><li><a href="#implementations">Trait Implementations</a></li></ul></div><p class='location'><a href='../index.html'>rocket_cors</a>::<wbr><a href='index.html'>headers</a></p><script>window.sidebarCurrent = {name: 'AccessControlRequestHeaders', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>rocket_cors</a>::<wbr><a href='index.html'>headers</a>::<wbr><a class="struct" href=''>AccessControlRequestHeaders</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../../src/rocket_cors/headers.rs.html#153' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct AccessControlRequestHeaders(pub <a class="type" href="../../rocket_cors/headers/type.HeaderFieldNamesSet.html" title="type rocket_cors::headers::HeaderFieldNamesSet">HeaderFieldNamesSet</a>);</pre><div class='docblock'><p>The <code>Access-Control-Request-Headers</code> request header</p>
+
+<p>You can use this as a rocket <a href="https://rocket.rs/guide/requests/#request-guards">Request Guard</a>
+to ensure that the header is passed in correctly.</p>
+</div>
+            <h2 id='implementations' class='small-section-header'>
+              Trait Implementations<a href='#implementations' class='anchor'></a>
+            </h2>
+        <h3 id='impl-Eq' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html" title="trait core::cmp::Eq">Eq</a> for <a class="struct" href="../../rocket_cors/headers/struct.AccessControlRequestHeaders.html" title="struct rocket_cors::headers::AccessControlRequestHeaders">AccessControlRequestHeaders</a></code><a href='#impl-Eq' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#152' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'></div><h3 id='impl-PartialEq' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html" title="trait core::cmp::PartialEq">PartialEq</a> for <a class="struct" href="../../rocket_cors/headers/struct.AccessControlRequestHeaders.html" title="struct rocket_cors::headers::AccessControlRequestHeaders">AccessControlRequestHeaders</a></code><a href='#impl-PartialEq' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#152' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.eq' class="method"><span id='eq.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq' class='fnname'>eq</a>(&amp;self, __arg_0: &amp;<a class="struct" href="../../rocket_cors/headers/struct.AccessControlRequestHeaders.html" title="struct rocket_cors::headers::AccessControlRequestHeaders">AccessControlRequestHeaders</a>) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#152' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>self</code> and <code>other</code> values to be equal, and is used by <code>==</code>. <a href="https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#tymethod.eq">Read more</a></p>
+</div><h4 id='method.ne' class="method"><span id='ne.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/cmp/trait.PartialEq.html#method.ne' class='fnname'>ne</a>(&amp;self, __arg_0: &amp;<a class="struct" href="../../rocket_cors/headers/struct.AccessControlRequestHeaders.html" title="struct rocket_cors::headers::AccessControlRequestHeaders">AccessControlRequestHeaders</a>) -&gt; <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#152' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>This method tests for <code>!=</code>.</p>
+</div></div><h3 id='impl-Debug' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html" title="trait core::fmt::Debug">Debug</a> for <a class="struct" href="../../rocket_cors/headers/struct.AccessControlRequestHeaders.html" title="struct rocket_cors::headers::AccessControlRequestHeaders">AccessControlRequestHeaders</a></code><a href='#impl-Debug' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#152' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.fmt' class="method"><span id='fmt.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/fmt/trait.Debug.html#tymethod.fmt' class='fnname'>fmt</a>(&amp;self, __arg_0: &amp;mut <a class="struct" href="https://doc.rust-lang.org/nightly/core/fmt/struct.Formatter.html" title="struct core::fmt::Formatter">Formatter</a>) -&gt; <a class="type" href="https://doc.rust-lang.org/nightly/core/fmt/type.Result.html" title="type core::fmt::Result">Result</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#152' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Formats the value using the given formatter.</p>
+</div></div><h3 id='impl-FromStr' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/str/trait.FromStr.html" title="trait core::str::FromStr">FromStr</a> for <a class="struct" href="../../rocket_cors/headers/struct.AccessControlRequestHeaders.html" title="struct rocket_cors::headers::AccessControlRequestHeaders">AccessControlRequestHeaders</a></code><a href='#impl-FromStr' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#156-171' title='goto source code'>[src]</a></span></h3>
+<div class='docblock'><p>Will never fail</p>
+</div><div class='impl-items'><h4 id='associatedtype.Err' class="type"><span id='Err.t' class='invisible'><code>type <a href='https://doc.rust-lang.org/nightly/core/str/trait.FromStr.html#associatedtype.Err' class="type">Err</a> = <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.tuple.html">()</a></code></span></h4>
+<div class='docblock'><p>The associated error which can be returned from parsing.</p>
+</div><h4 id='method.from_str' class="method"><span id='from_str.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/str/trait.FromStr.html#tymethod.from_str' class='fnname'>from_str</a>(headers: &amp;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.str.html">str</a>) -&gt; <a class="enum" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html" title="enum core::result::Result">Result</a>&lt;Self, Self::<a class="type" href="https://doc.rust-lang.org/nightly/core/str/trait.FromStr.html#associatedtype.Err" title="type core::str::FromStr::Err">Err</a>&gt;</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#160-170' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Will never fail</p>
+</div></div><h3 id='impl-FromRequest&lt;&#39;a, &#39;r&gt;' class='impl'><span class='in-band'><code>impl&lt;'a, 'r&gt; <a class="trait" href="https://api.rocket.rs/rocket/rocket/request/from_request/trait.FromRequest.html" title="trait rocket::request::from_request::FromRequest">FromRequest</a>&lt;'a, 'r&gt; for <a class="struct" href="../../rocket_cors/headers/struct.AccessControlRequestHeaders.html" title="struct rocket_cors::headers::AccessControlRequestHeaders">AccessControlRequestHeaders</a></code><a href='#impl-FromRequest&lt;&#39;a, &#39;r&gt;' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#173-189' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='associatedtype.Error' class="type"><span id='Error.t' class='invisible'><code>type <a href='https://api.rocket.rs/rocket/rocket/request/from_request/trait.FromRequest.html#associatedtype.Error' class="type">Error</a> = <a class="enum" href="../../rocket_cors/enum.Error.html" title="enum rocket_cors::Error">Error</a></code></span></h4>
+<div class='docblock'><p>The associated error to be returned if derivation fails.</p>
+</div><h4 id='method.from_request' class="method"><span id='from_request.v' class='invisible'><code>fn <a href='https://api.rocket.rs/rocket/rocket/request/from_request/trait.FromRequest.html#tymethod.from_request' class='fnname'>from_request</a>(request: &amp;'a <a class="struct" href="https://api.rocket.rs/rocket/rocket/request/request/struct.Request.html" title="struct rocket::request::request::Request">Request</a>&lt;'r&gt;) -&gt; <a class="type" href="https://api.rocket.rs/rocket/rocket/request/from_request/type.Outcome.html" title="type rocket::request::from_request::Outcome">Outcome</a>&lt;Self, <a class="enum" href="../../rocket_cors/enum.Error.html" title="enum rocket_cors::Error">Error</a>&gt;</code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../../src/rocket_cors/headers.rs.html#176-188' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Derives an instance of <code>Self</code> from the incoming request metadata. <a href="https://api.rocket.rs/rocket/rocket/request/from_request/trait.FromRequest.html#tymethod.from_request">Read more</a></p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "rocket_cors";
+    </script>
+    <script src="../../main.js"></script>
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>
